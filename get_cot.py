@@ -1,13 +1,14 @@
 import requests
 import json
 import time
+import os
 from openai import OpenAI
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Constants
 MAX_PROCESSES = 10
-DEEPSEEK_API_KEY = "sk-c230d8a125ca48ee83c0cd4a97add6e9"
-OPENROUTER_API_KEY = "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"
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 PROMPT_TEMPLATE = """
 Patient Treatment Summary:
 {patient_data}
