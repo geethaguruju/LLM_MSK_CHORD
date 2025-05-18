@@ -1,0 +1,314 @@
+{
+    "clinical_data": [
+        {
+            "Attribute": "Overall Survival Status",
+            "Value": "0:LIVING"
+        },
+        {
+            "Attribute": "Race",
+            "Value": "White"
+        },
+        {
+            "Attribute": "Sex",
+            "Value": "Female"
+        },
+        {
+            "Attribute": "Stage (Highest Recorded)",
+            "Value": "Stage 1-3"
+        },
+        {
+            "Attribute": "Ethnicity",
+            "Value": "Non-Spanish; Non-Hispanic"
+        },
+        {
+            "Attribute": "Current Age",
+            "Value": "72"
+        },
+        {
+            "Attribute": "Smoking History (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Prior Treatment to MSK (NLP)",
+            "Value": "No prior medications"
+        },
+        {
+            "Attribute": "Number of Tumor Registry Entries",
+            "Value": "1"
+        },
+        {
+            "Attribute": "Number of Samples Per Patient",
+            "Value": "1"
+        },
+        {
+            "Attribute": "Overall Survival (Months)",
+            "Value": "46.9"
+        },
+        {
+            "Attribute": "Tumor Site: Adrenal Glands (NLP)",
+            "Value": "No"
+        },
+        {
+            "Attribute": "Tumor Site: Bone (NLP)",
+            "Value": "No"
+        },
+        {
+            "Attribute": "Tumor Site: CNS/Brain (NLP)",
+            "Value": "No"
+        },
+        {
+            "Attribute": "Tumor Site: Intra Abdominal",
+            "Value": "No"
+        },
+        {
+            "Attribute": "Tumor Site: Liver (NLP)",
+            "Value": "No"
+        },
+        {
+            "Attribute": "Tumor Site: Lung (NLP)",
+            "Value": "No"
+        },
+        {
+            "Attribute": "Tumor Site: Lymph Node (NLP)",
+            "Value": "No"
+        },
+        {
+            "Attribute": "Tumor Site: Other (NLP)",
+            "Value": "No"
+        },
+        {
+            "Attribute": "Tumor Site: Pleura (NLP)",
+            "Value": "No"
+        },
+        {
+            "Attribute": "Tumor Site: Reproductive Organs (NLP)",
+            "Value": "No"
+        }
+    ],
+    "patient": [
+        {
+            "Attribute": "Cancer Type",
+            "P-0018954-T01-IM6": "Pancreatic Cancer"
+        },
+        {
+            "Attribute": "Clinical Summary",
+            "P-0018954-T01-IM6": "Localized"
+        },
+        {
+            "Attribute": "Diagnosis Description",
+            "P-0018954-T01-IM6": "Pancreas"
+        },
+        {
+            "Attribute": "ICD-O Histology Description",
+            "P-0018954-T01-IM6": "Carcinoid Tumor, Malignant"
+        },
+        {
+            "Attribute": "Pathological Group",
+            "P-0018954-T01-IM6": "1B"
+        },
+        {
+            "Attribute": "Cancer Type Detailed",
+            "P-0018954-T01-IM6": "Pancreatic Neuroendocrine Tumor"
+        },
+        {
+            "Attribute": "Sample Type",
+            "P-0018954-T01-IM6": "Primary"
+        },
+        {
+            "Attribute": "MSI Type",
+            "P-0018954-T01-IM6": "Stable"
+        },
+        {
+            "Attribute": "Gene Panel",
+            "P-0018954-T01-IM6": "IMPACT468"
+        },
+        {
+            "Attribute": "Somatic Status",
+            "P-0018954-T01-IM6": "Matched"
+        },
+        {
+            "Attribute": "Sample Class",
+            "P-0018954-T01-IM6": "Tumor"
+        },
+        {
+            "Attribute": "Fraction Genome Altered",
+            "P-0018954-T01-IM6": "0.4683"
+        },
+        {
+            "Attribute": "TMB (nonsynonymous)",
+            "P-0018954-T01-IM6": "0"
+        },
+        {
+            "Attribute": "MSI Comment",
+            "P-0018954-T01-IM6": "MICROSATELLITE STABLE (MSS). This result is for investigational use only. See MSI note below."
+        },
+        {
+            "Attribute": "MSI Score",
+            "P-0018954-T01-IM6": "0.6"
+        },
+        {
+            "Attribute": "Oncotree Code",
+            "P-0018954-T01-IM6": "PANET"
+        },
+        {
+            "Attribute": "Primary Tumor Site",
+            "P-0018954-T01-IM6": "Pancreas"
+        },
+        {
+            "Attribute": "Sample coverage",
+            "P-0018954-T01-IM6": "661"
+        },
+        {
+            "Attribute": "Tumor Purity",
+            "P-0018954-T01-IM6": "60"
+        }
+    ],
+    "samples": [
+        {
+            "START_DATE": "-8",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "TREATMENT",
+            "SUBTYPE": "Prior Medications to MSK",
+            "TREATMENT_TYPE": "Medical Therapy",
+            "INFERRED_TX_PROB": "0.03",
+            "PRIOR_MED_TO_MSK": "No prior medications"
+        }
+    ],
+    "demographic": [
+        {
+            "START_DATE": "0",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Primary",
+            "CLINICAL_GROUP": "99",
+            "SUMMARY": "Localized",
+            "PATH_GROUP": "1B",
+            "SOURCE": "Tumor Registry",
+            "DX_DESCRIPTION": "CARCINOID TUMOR, MALIGNANT | PANCREAS, TAIL (M8240/3 | C252)",
+            "STAGE_CDM_DERIVED": "Stage 1-3",
+            "NLP_PROGRESSION_PROBABILITY": "",
+            "PROCEDURE_TYPE": "",
+            "PROGRESSION": "",
+            "CHEST": "",
+            "OTHER": "",
+            "HEAD": "",
+            "NLP_HAS_CANCER_PROBABILITY": "",
+            "ABDOMEN": "",
+            "HAS_CANCER": "",
+            "PELVIS": ""
+        },
+        {
+            "START_DATE": "195",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Progression",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "SOURCE": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": "",
+            "NLP_PROGRESSION_PROBABILITY": "0.034651265",
+            "PROCEDURE_TYPE": "CT",
+            "PROGRESSION": "N",
+            "CHEST": "",
+            "OTHER": "",
+            "HEAD": "",
+            "NLP_HAS_CANCER_PROBABILITY": "",
+            "ABDOMEN": "",
+            "HAS_CANCER": "",
+            "PELVIS": ""
+        },
+        {
+            "START_DATE": "195",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "HasCancer",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "SOURCE": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": "",
+            "NLP_PROGRESSION_PROBABILITY": "",
+            "PROCEDURE_TYPE": "CT",
+            "PROGRESSION": "",
+            "CHEST": "TRUE",
+            "OTHER": "FALSE",
+            "HEAD": "FALSE",
+            "NLP_HAS_CANCER_PROBABILITY": "0.00189686",
+            "ABDOMEN": "FALSE",
+            "HAS_CANCER": "N",
+            "PELVIS": "FALSE"
+        },
+        {
+            "START_DATE": "552",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Progression",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "SOURCE": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": "",
+            "NLP_PROGRESSION_PROBABILITY": "0.3444188",
+            "PROCEDURE_TYPE": "CT",
+            "PROGRESSION": "Indeterminate",
+            "CHEST": "",
+            "OTHER": "",
+            "HEAD": "",
+            "NLP_HAS_CANCER_PROBABILITY": "",
+            "ABDOMEN": "",
+            "HAS_CANCER": "",
+            "PELVIS": ""
+        },
+        {
+            "START_DATE": "552",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "HasCancer",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "SOURCE": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": "",
+            "NLP_PROGRESSION_PROBABILITY": "",
+            "PROCEDURE_TYPE": "CT",
+            "PROGRESSION": "",
+            "CHEST": "TRUE",
+            "OTHER": "FALSE",
+            "HEAD": "FALSE",
+            "NLP_HAS_CANCER_PROBABILITY": "0.0022953",
+            "ABDOMEN": "FALSE",
+            "HAS_CANCER": "N",
+            "PELVIS": "FALSE"
+        }
+    ],
+    "diagnosis": [
+        {
+            "START_DATE": "0",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Sample acquisition",
+            "SEQ_DATE": "0",
+            "SAMPLE_ID": "P-0018954-T01-IM6"
+        }
+    ],
+    "sample_acquisition": [
+        {
+            "START_DATE": "0",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Sequencing",
+            "SAMPLE_ID": "P-0018954-T01-IM6"
+        }
+    ],
+    "lab_test": [
+        {
+            "START_DATE": "0",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "SURGERY",
+            "SUBTYPE": "PROCEDURE"
+        }
+    ]
+}

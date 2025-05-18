@@ -1,0 +1,290 @@
+{
+    "clinical_data": [
+        {
+            "Attribute": "Overall Survival Status",
+            "Value": "0:LIVING"
+        },
+        {
+            "Attribute": "Race",
+            "Value": "White"
+        },
+        {
+            "Attribute": "Sex",
+            "Value": "Female"
+        },
+        {
+            "Attribute": "Stage (Highest Recorded)",
+            "Value": "Stage 1-3"
+        },
+        {
+            "Attribute": "Ethnicity",
+            "Value": "Non-Spanish; Non-Hispanic"
+        },
+        {
+            "Attribute": "Current Age",
+            "Value": "63"
+        },
+        {
+            "Attribute": "Smoking History (NLP)",
+            "Value": "Former/Current Smoker"
+        },
+        {
+            "Attribute": "Prior Treatment to MSK (NLP)",
+            "Value": "No prior medications"
+        },
+        {
+            "Attribute": "Number of Tumor Registry Entries",
+            "Value": "1"
+        },
+        {
+            "Attribute": "Number of Samples Per Patient",
+            "Value": "1"
+        },
+        {
+            "Attribute": "HER2",
+            "Value": "Yes"
+        },
+        {
+            "Attribute": "HR",
+            "Value": "No"
+        },
+        {
+            "Attribute": "Overall Survival (Months)",
+            "Value": "74.9"
+        },
+        {
+            "Attribute": "Tumor Site: Adrenal Glands (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Bone (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: CNS/Brain (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Intra Abdominal",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Liver (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Lung (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Lymph Node (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Other (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Pleura (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Reproductive Organs (NLP)",
+            "Value": "Unknown"
+        }
+    ],
+    "patient": [
+        {
+            "Attribute": "Cancer Type",
+            "P-0021230-T01-IM6": "Breast Cancer"
+        },
+        {
+            "Attribute": "Clinical Group",
+            "P-0021230-T01-IM6": "1A"
+        },
+        {
+            "Attribute": "Clinical Summary",
+            "P-0021230-T01-IM6": "Localized"
+        },
+        {
+            "Attribute": "Diagnosis Description",
+            "P-0021230-T01-IM6": "Breast"
+        },
+        {
+            "Attribute": "ICD-O Histology Description",
+            "P-0021230-T01-IM6": "Infiltrating Duct Carcinoma"
+        },
+        {
+            "Attribute": "Pathological Group",
+            "P-0021230-T01-IM6": "1A"
+        },
+        {
+            "Attribute": "Cancer Type Detailed",
+            "P-0021230-T01-IM6": "Breast Invasive Cancer, NOS"
+        },
+        {
+            "Attribute": "Sample Type",
+            "P-0021230-T01-IM6": "Primary"
+        },
+        {
+            "Attribute": "MSI Type",
+            "P-0021230-T01-IM6": "Stable"
+        },
+        {
+            "Attribute": "Gene Panel",
+            "P-0021230-T01-IM6": "IMPACT468"
+        },
+        {
+            "Attribute": "Somatic Status",
+            "P-0021230-T01-IM6": "Matched"
+        },
+        {
+            "Attribute": "Sample Class",
+            "P-0021230-T01-IM6": "Tumor"
+        },
+        {
+            "Attribute": "Mutation Count",
+            "P-0021230-T01-IM6": "1"
+        },
+        {
+            "Attribute": "Fraction Genome Altered",
+            "P-0021230-T01-IM6": "0.1313"
+        },
+        {
+            "Attribute": "TMB (nonsynonymous)",
+            "P-0021230-T01-IM6": "0.864698095"
+        },
+        {
+            "Attribute": "MSI Comment",
+            "P-0021230-T01-IM6": "MICROSATELLITE STABLE (MSS). This result is for investigational use only. See MSI note below."
+        },
+        {
+            "Attribute": "MSI Score",
+            "P-0021230-T01-IM6": "0"
+        },
+        {
+            "Attribute": "Oncotree Code",
+            "P-0021230-T01-IM6": "BRCANOS"
+        },
+        {
+            "Attribute": "Primary Tumor Site",
+            "P-0021230-T01-IM6": "Breast"
+        },
+        {
+            "Attribute": "Sample coverage",
+            "P-0021230-T01-IM6": "702"
+        },
+        {
+            "Attribute": "Tumor Purity",
+            "P-0021230-T01-IM6": "40"
+        }
+    ],
+    "samples": [
+        {
+            "START_DATE": "-21",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Primary",
+            "CLINICAL_GROUP": "1A",
+            "SUMMARY": "Localized",
+            "PATH_GROUP": "1A",
+            "SOURCE": "Tumor Registry",
+            "DX_DESCRIPTION": "INFILTRATING DUCT CARCINOMA | BREAST, UIQ (M8500/3 | C502)",
+            "STAGE_CDM_DERIVED": "Stage 1-3",
+            "ECOG": ""
+        },
+        {
+            "START_DATE": "33",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Performance Status",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "SOURCE": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": "",
+            "ECOG": "0"
+        }
+    ],
+    "demographic": [
+        {
+            "START_DATE": "0",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Sample acquisition",
+            "SEQ_DATE": "0",
+            "SAMPLE_ID": "P-0021230-T01-IM6"
+        }
+    ],
+    "diagnosis": [
+        {
+            "START_DATE": "0",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Sequencing",
+            "SAMPLE_ID": "P-0021230-T01-IM6"
+        }
+    ],
+    "sample_acquisition": [
+        {
+            "START_DATE": "0",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "SURGERY",
+            "SUBTYPE": "PROCEDURE"
+        },
+        {
+            "START_DATE": "0",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "SURGERY",
+            "SUBTYPE": "SAMPLE"
+        }
+    ],
+    "lab_test": [
+        {
+            "START_DATE": "33",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "TREATMENT",
+            "SUBTYPE": "Prior Medications to MSK",
+            "TREATMENT_TYPE": "Medical Therapy",
+            "INFERRED_TX_PROB": "0.02",
+            "PRIOR_MED_TO_MSK": "No prior medications"
+        },
+        {
+            "START_DATE": "175",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "TREATMENT",
+            "SUBTYPE": "Radiation Therapy",
+            "TREATMENT_TYPE": "",
+            "INFERRED_TX_PROB": "",
+            "PRIOR_MED_TO_MSK": ""
+        },
+        {
+            "START_DATE": "199",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "TREATMENT",
+            "SUBTYPE": "Radiation Therapy",
+            "TREATMENT_TYPE": "",
+            "INFERRED_TX_PROB": "",
+            "PRIOR_MED_TO_MSK": ""
+        }
+    ],
+    "pathology": [
+        {
+            "START_DATE": "54",
+            "STOP_DATE": "145",
+            "EVENT_TYPE": "Treatment",
+            "SUBTYPE": "Chemo",
+            "AGENT": "PACLITAXEL",
+            "RX_INVESTIGATIVE": "N",
+            "FLAG_OROTOPICAL": "0"
+        },
+        {
+            "START_DATE": "54",
+            "STOP_DATE": "395",
+            "EVENT_TYPE": "Treatment",
+            "SUBTYPE": "Biologic",
+            "AGENT": "TRASTUZUMAB",
+            "RX_INVESTIGATIVE": "N",
+            "FLAG_OROTOPICAL": "0"
+        }
+    ]
+}

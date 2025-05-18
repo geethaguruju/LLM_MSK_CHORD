@@ -1,0 +1,299 @@
+{
+    "clinical_data": [
+        {
+            "Attribute": "Overall Survival Status",
+            "Value": "0:LIVING"
+        },
+        {
+            "Attribute": "Race",
+            "Value": "White"
+        },
+        {
+            "Attribute": "Sex",
+            "Value": "Female"
+        },
+        {
+            "Attribute": "Stage (Highest Recorded)",
+            "Value": "Stage 1-3"
+        },
+        {
+            "Attribute": "Ethnicity",
+            "Value": "Non-Spanish; Non-Hispanic"
+        },
+        {
+            "Attribute": "Current Age",
+            "Value": "56"
+        },
+        {
+            "Attribute": "Smoking History (NLP)",
+            "Value": "Never"
+        },
+        {
+            "Attribute": "Prior Treatment to MSK (NLP)",
+            "Value": "No prior medications"
+        },
+        {
+            "Attribute": "Number of Tumor Registry Entries",
+            "Value": "1"
+        },
+        {
+            "Attribute": "Number of Samples Per Patient",
+            "Value": "1"
+        },
+        {
+            "Attribute": "HER2",
+            "Value": "No"
+        },
+        {
+            "Attribute": "HR",
+            "Value": "Yes"
+        },
+        {
+            "Attribute": "Overall Survival (Months)",
+            "Value": "77.3"
+        },
+        {
+            "Attribute": "Tumor Site: Adrenal Glands (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Bone (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: CNS/Brain (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Intra Abdominal",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Liver (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Lung (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Lymph Node (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Other (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Pleura (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Reproductive Organs (NLP)",
+            "Value": "Unknown"
+        }
+    ],
+    "patient": [
+        {
+            "Attribute": "Cancer Type",
+            "P-0019143-T01-IM6": "Breast Cancer"
+        },
+        {
+            "Attribute": "Clinical Group",
+            "P-0019143-T01-IM6": "1A"
+        },
+        {
+            "Attribute": "Clinical Summary",
+            "P-0019143-T01-IM6": "Regional To Lymph Nodes"
+        },
+        {
+            "Attribute": "Diagnosis Description",
+            "P-0019143-T01-IM6": "Breast"
+        },
+        {
+            "Attribute": "ICD-O Histology Description",
+            "P-0019143-T01-IM6": "Lobular Ca + Ifdc/Dcis"
+        },
+        {
+            "Attribute": "Pathological Group",
+            "P-0019143-T01-IM6": "2A"
+        },
+        {
+            "Attribute": "Cancer Type Detailed",
+            "P-0019143-T01-IM6": "Breast Invasive Ductal Carcinoma"
+        },
+        {
+            "Attribute": "Sample Type",
+            "P-0019143-T01-IM6": "Primary"
+        },
+        {
+            "Attribute": "MSI Type",
+            "P-0019143-T01-IM6": "Stable"
+        },
+        {
+            "Attribute": "Gene Panel",
+            "P-0019143-T01-IM6": "IMPACT468"
+        },
+        {
+            "Attribute": "Somatic Status",
+            "P-0019143-T01-IM6": "Matched"
+        },
+        {
+            "Attribute": "Sample Class",
+            "P-0019143-T01-IM6": "Tumor"
+        },
+        {
+            "Attribute": "Mutation Count",
+            "P-0019143-T01-IM6": "3"
+        },
+        {
+            "Attribute": "Fraction Genome Altered",
+            "P-0019143-T01-IM6": "0.0460"
+        },
+        {
+            "Attribute": "TMB (nonsynonymous)",
+            "P-0019143-T01-IM6": "2.594094285"
+        },
+        {
+            "Attribute": "MSI Comment",
+            "P-0019143-T01-IM6": "MICROSATELLITE STABLE (MSS). This result is for investigational use only. See MSI note below."
+        },
+        {
+            "Attribute": "MSI Score",
+            "P-0019143-T01-IM6": "0"
+        },
+        {
+            "Attribute": "Oncotree Code",
+            "P-0019143-T01-IM6": "IDC"
+        },
+        {
+            "Attribute": "Primary Tumor Site",
+            "P-0019143-T01-IM6": "Breast"
+        },
+        {
+            "Attribute": "Sample coverage",
+            "P-0019143-T01-IM6": "627"
+        },
+        {
+            "Attribute": "Tumor Purity",
+            "P-0019143-T01-IM6": "30"
+        }
+    ],
+    "samples": [
+        {
+            "START_DATE": "-255",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Primary",
+            "CLINICAL_GROUP": "1A",
+            "SUMMARY": "Regional to lymph nodes",
+            "PATH_GROUP": "2A",
+            "SOURCE": "Tumor Registry",
+            "DX_DESCRIPTION": "LOBULAR CA + IFDC/DCIS | BREAST, UIQ (M8522/3 | C502)",
+            "STAGE_CDM_DERIVED": "Stage 1-3",
+            "ECOG": ""
+        },
+        {
+            "START_DATE": "-212",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Performance Status",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "SOURCE": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": "",
+            "ECOG": "0"
+        }
+    ],
+    "demographic": [
+        {
+            "START_DATE": "-241",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Sample acquisition",
+            "SEQ_DATE": "0",
+            "SAMPLE_ID": "P-0019143-T01-IM6"
+        }
+    ],
+    "diagnosis": [
+        {
+            "START_DATE": "-241",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "SURGERY",
+            "SUBTYPE": "SAMPLE"
+        },
+        {
+            "START_DATE": "-241",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "SURGERY",
+            "SUBTYPE": "PROCEDURE"
+        }
+    ],
+    "sample_acquisition": [
+        {
+            "START_DATE": "-212",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "TREATMENT",
+            "SUBTYPE": "Prior Medications to MSK",
+            "TREATMENT_TYPE": "Medical Therapy",
+            "INFERRED_TX_PROB": "0.02",
+            "PRIOR_MED_TO_MSK": "No prior medications"
+        },
+        {
+            "START_DATE": "-192",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "TREATMENT",
+            "SUBTYPE": "Radiation Therapy",
+            "TREATMENT_TYPE": "",
+            "INFERRED_TX_PROB": "",
+            "PRIOR_MED_TO_MSK": ""
+        },
+        {
+            "START_DATE": "-170",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "TREATMENT",
+            "SUBTYPE": "Radiation Therapy",
+            "TREATMENT_TYPE": "",
+            "INFERRED_TX_PROB": "",
+            "PRIOR_MED_TO_MSK": ""
+        }
+    ],
+    "lab_test": [
+        {
+            "START_DATE": "-198",
+            "STOP_DATE": "2352",
+            "EVENT_TYPE": "Treatment",
+            "SUBTYPE": "Hormone",
+            "AGENT": "LETROZOLE",
+            "RX_INVESTIGATIVE": "N",
+            "FLAG_OROTOPICAL": "1"
+        },
+        {
+            "START_DATE": "-198",
+            "STOP_DATE": "2352",
+            "EVENT_TYPE": "Treatment",
+            "SUBTYPE": "Hormone",
+            "AGENT": "LEUPROLIDE",
+            "RX_INVESTIGATIVE": "N",
+            "FLAG_OROTOPICAL": "0"
+        },
+        {
+            "START_DATE": "2317",
+            "STOP_DATE": "2318",
+            "EVENT_TYPE": "Treatment",
+            "SUBTYPE": "Bone Treatment",
+            "AGENT": "ZOLEDRONIC ACID",
+            "RX_INVESTIGATIVE": "N",
+            "FLAG_OROTOPICAL": "0"
+        }
+    ],
+    "pathology": [
+        {
+            "START_DATE": "0",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Sequencing",
+            "SAMPLE_ID": "P-0019143-T01-IM6"
+        }
+    ]
+}

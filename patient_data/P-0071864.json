@@ -1,0 +1,221 @@
+{
+    "clinical_data": [
+        {
+            "Attribute": "Overall Survival Status",
+            "Value": "0:LIVING"
+        },
+        {
+            "Attribute": "Race",
+            "Value": "Asian-Far East/Indian Subcont"
+        },
+        {
+            "Attribute": "Sex",
+            "Value": "Female"
+        },
+        {
+            "Attribute": "Stage (Highest Recorded)",
+            "Value": "Stage 4"
+        },
+        {
+            "Attribute": "Ethnicity",
+            "Value": "Non-Spanish; Non-Hispanic"
+        },
+        {
+            "Attribute": "Current Age",
+            "Value": "69"
+        },
+        {
+            "Attribute": "Smoking History (NLP)",
+            "Value": "Never"
+        },
+        {
+            "Attribute": "Prior Treatment to MSK (NLP)",
+            "Value": "No prior medications"
+        },
+        {
+            "Attribute": "Number of Tumor Registry Entries",
+            "Value": "1"
+        },
+        {
+            "Attribute": "Number of Samples Per Patient",
+            "Value": "1"
+        },
+        {
+            "Attribute": "Overall Survival (Months)",
+            "Value": "0.6"
+        },
+        {
+            "Attribute": "Tumor Site: Adrenal Glands (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Bone (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: CNS/Brain (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Intra Abdominal",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Liver (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Lung (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Lymph Node (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Other (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Pleura (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Reproductive Organs (NLP)",
+            "Value": "Unknown"
+        }
+    ],
+    "patient": [
+        {
+            "Attribute": "Cancer Type",
+            "P-0071864-T01-IM7": "Non-Small Cell Lung Cancer"
+        },
+        {
+            "Attribute": "Clinical Group",
+            "P-0071864-T01-IM7": "4A"
+        },
+        {
+            "Attribute": "Clinical Summary",
+            "P-0071864-T01-IM7": "Distant Metastases/Systemic Disease"
+        },
+        {
+            "Attribute": "Diagnosis Description",
+            "P-0071864-T01-IM7": "Lung and Bronchus"
+        },
+        {
+            "Attribute": "ICD-O Histology Description",
+            "P-0071864-T01-IM7": "Adenocarcinoma, Nos"
+        },
+        {
+            "Attribute": "Cancer Type Detailed",
+            "P-0071864-T01-IM7": "Lung Adenocarcinoma"
+        },
+        {
+            "Attribute": "Sample Type",
+            "P-0071864-T01-IM7": "Metastasis"
+        },
+        {
+            "Attribute": "Gene Panel",
+            "P-0071864-T01-IM7": "IMPACT505"
+        },
+        {
+            "Attribute": "Somatic Status",
+            "P-0071864-T01-IM7": "Matched"
+        },
+        {
+            "Attribute": "Sample Class",
+            "P-0071864-T01-IM7": "Tumor"
+        },
+        {
+            "Attribute": "Fraction Genome Altered",
+            "P-0071864-T01-IM7": "0"
+        },
+        {
+            "Attribute": "TMB (nonsynonymous)",
+            "P-0071864-T01-IM7": "0"
+        },
+        {
+            "Attribute": "Metastatic Site",
+            "P-0071864-T01-IM7": "Pleural Fluid"
+        },
+        {
+            "Attribute": "Oncotree Code",
+            "P-0071864-T01-IM7": "LUAD"
+        },
+        {
+            "Attribute": "Primary Tumor Site",
+            "P-0071864-T01-IM7": "Lung"
+        },
+        {
+            "Attribute": "Sample coverage",
+            "P-0071864-T01-IM7": "479"
+        }
+    ],
+    "samples": [
+        {
+            "START_DATE": "-31",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Primary",
+            "CLINICAL_GROUP": "4A",
+            "SUMMARY": "Distant metastases/systemic disease",
+            "PATH_GROUP": "99",
+            "SOURCE": "Tumor Registry",
+            "DX_DESCRIPTION": "ADENOCARCINOMA, NOS | LUNG, NOS (M8140/3 | C349)",
+            "STAGE_CDM_DERIVED": "Stage 4",
+            "ECOG": ""
+        },
+        {
+            "START_DATE": "-9",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Performance Status",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "SOURCE": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": "",
+            "ECOG": "1"
+        }
+    ],
+    "demographic": [
+        {
+            "START_DATE": "-31",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Sample acquisition",
+            "SEQ_DATE": "0",
+            "SAMPLE_ID": "P-0071864-T01-IM7"
+        }
+    ],
+    "diagnosis": [
+        {
+            "START_DATE": "-17",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "TREATMENT",
+            "SUBTYPE": "Prior Medications to MSK",
+            "TREATMENT_TYPE": "Medical Therapy",
+            "INFERRED_TX_PROB": "0.02",
+            "PRIOR_MED_TO_MSK": "No prior medications"
+        }
+    ],
+    "sample_acquisition": [
+        {
+            "START_DATE": "-2",
+            "STOP_DATE": "17",
+            "EVENT_TYPE": "Treatment",
+            "SUBTYPE": "Targeted",
+            "AGENT": "OSIMERTINIB",
+            "RX_INVESTIGATIVE": "N",
+            "FLAG_OROTOPICAL": "1"
+        }
+    ],
+    "lab_test": [
+        {
+            "START_DATE": "0",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Sequencing",
+            "SAMPLE_ID": "P-0071864-T01-IM7"
+        }
+    ]
+}
