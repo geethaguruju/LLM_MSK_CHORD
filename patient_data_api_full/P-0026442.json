@@ -1,0 +1,346 @@
+{
+    "patient_id": "P-0026442",
+    "patient_clinical_data": [
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "ADRENAL_GLANDS",
+            "value": "No"
+        },
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "BONE",
+            "value": "Yes"
+        },
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "CNS_BRAIN",
+            "value": "No"
+        },
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "CURRENT_AGE_DEID",
+            "value": "65"
+        },
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "ETHNICITY",
+            "value": "Non-Spanish; Non-Hispanic"
+        },
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "GENDER",
+            "value": "Male"
+        },
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "INTRA_ABDOMINAL",
+            "value": "No"
+        },
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "LIVER",
+            "value": "No"
+        },
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "LUNG",
+            "value": "No"
+        },
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "LYMPH_NODES",
+            "value": "Yes"
+        },
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "NUM_ICDO_DX",
+            "value": "1"
+        },
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "OS_MONTHS",
+            "value": "48.65748092"
+        },
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "OS_STATUS",
+            "value": "1:DECEASED"
+        },
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "OTHER",
+            "value": "Yes"
+        },
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "PLEURA",
+            "value": "No"
+        },
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "PRIOR_MED_TO_MSK",
+            "value": "No prior medications"
+        },
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "RACE",
+            "value": "Pt Refused To Answer"
+        },
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "REPRODUCTIVE_ORGANS",
+            "value": "Yes"
+        },
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "SAMPLE_COUNT",
+            "value": "1"
+        },
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "SMOKING_PREDICTIONS_3_CLASSES",
+            "value": "Former/Current Smoker"
+        },
+        {
+            "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+            "patientId": "P-0026442",
+            "studyId": "msk_chord_2024",
+            "clinicalAttributeId": "STAGE_HIGHEST_RECORDED",
+            "value": "Stage 4"
+        }
+    ],
+    "samples": [
+        {
+            "sample_info": {
+                "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                "sampleType": "Primary Solid Tumor",
+                "sampleId": "P-0026442-T01-IM6",
+                "patientId": "P-0026442",
+                "studyId": "msk_chord_2024"
+            },
+            "sample_clinical_data": [
+                {
+                    "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                    "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                    "sampleId": "P-0026442-T01-IM6",
+                    "patientId": "P-0026442",
+                    "studyId": "msk_chord_2024",
+                    "clinicalAttributeId": "CANCER_TYPE",
+                    "value": "Prostate Cancer"
+                },
+                {
+                    "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                    "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                    "sampleId": "P-0026442-T01-IM6",
+                    "patientId": "P-0026442",
+                    "studyId": "msk_chord_2024",
+                    "clinicalAttributeId": "CANCER_TYPE_DETAILED",
+                    "value": "Prostate Small Cell Carcinoma"
+                },
+                {
+                    "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                    "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                    "sampleId": "P-0026442-T01-IM6",
+                    "patientId": "P-0026442",
+                    "studyId": "msk_chord_2024",
+                    "clinicalAttributeId": "CLINICAL_GROUP",
+                    "value": "4"
+                },
+                {
+                    "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                    "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                    "sampleId": "P-0026442-T01-IM6",
+                    "patientId": "P-0026442",
+                    "studyId": "msk_chord_2024",
+                    "clinicalAttributeId": "CLINICAL_SUMMARY",
+                    "value": "Regional To Lymph Nodes"
+                },
+                {
+                    "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                    "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                    "sampleId": "P-0026442-T01-IM6",
+                    "patientId": "P-0026442",
+                    "studyId": "msk_chord_2024",
+                    "clinicalAttributeId": "DIAGNOSIS_DESCRIPTION",
+                    "value": "Prostate"
+                },
+                {
+                    "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                    "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                    "sampleId": "P-0026442-T01-IM6",
+                    "patientId": "P-0026442",
+                    "studyId": "msk_chord_2024",
+                    "clinicalAttributeId": "FRACTION_GENOME_ALTERED",
+                    "value": "0.2954"
+                },
+                {
+                    "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                    "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                    "sampleId": "P-0026442-T01-IM6",
+                    "patientId": "P-0026442",
+                    "studyId": "msk_chord_2024",
+                    "clinicalAttributeId": "GENE_PANEL",
+                    "value": "IMPACT468"
+                },
+                {
+                    "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                    "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                    "sampleId": "P-0026442-T01-IM6",
+                    "patientId": "P-0026442",
+                    "studyId": "msk_chord_2024",
+                    "clinicalAttributeId": "ICD_O_HISTOLOGY_DESCRIPTION",
+                    "value": "Small Cell Carcinoma, Nos"
+                },
+                {
+                    "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                    "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                    "sampleId": "P-0026442-T01-IM6",
+                    "patientId": "P-0026442",
+                    "studyId": "msk_chord_2024",
+                    "clinicalAttributeId": "MSI_COMMENT",
+                    "value": "MICROSATELLITE STABLE (MSS). See MSI note below."
+                },
+                {
+                    "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                    "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                    "sampleId": "P-0026442-T01-IM6",
+                    "patientId": "P-0026442",
+                    "studyId": "msk_chord_2024",
+                    "clinicalAttributeId": "MSI_SCORE",
+                    "value": "0.96"
+                },
+                {
+                    "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                    "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                    "sampleId": "P-0026442-T01-IM6",
+                    "patientId": "P-0026442",
+                    "studyId": "msk_chord_2024",
+                    "clinicalAttributeId": "MSI_TYPE",
+                    "value": "Stable"
+                },
+                {
+                    "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                    "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                    "sampleId": "P-0026442-T01-IM6",
+                    "patientId": "P-0026442",
+                    "studyId": "msk_chord_2024",
+                    "clinicalAttributeId": "MUTATION_COUNT",
+                    "value": "4"
+                },
+                {
+                    "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                    "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                    "sampleId": "P-0026442-T01-IM6",
+                    "patientId": "P-0026442",
+                    "studyId": "msk_chord_2024",
+                    "clinicalAttributeId": "ONCOTREE_CODE",
+                    "value": "PRSCC"
+                },
+                {
+                    "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                    "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                    "sampleId": "P-0026442-T01-IM6",
+                    "patientId": "P-0026442",
+                    "studyId": "msk_chord_2024",
+                    "clinicalAttributeId": "PRIMARY_SITE",
+                    "value": "Prostate"
+                },
+                {
+                    "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                    "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                    "sampleId": "P-0026442-T01-IM6",
+                    "patientId": "P-0026442",
+                    "studyId": "msk_chord_2024",
+                    "clinicalAttributeId": "SAMPLE_CLASS",
+                    "value": "Tumor"
+                },
+                {
+                    "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                    "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                    "sampleId": "P-0026442-T01-IM6",
+                    "patientId": "P-0026442",
+                    "studyId": "msk_chord_2024",
+                    "clinicalAttributeId": "SAMPLE_COVERAGE",
+                    "value": "662"
+                },
+                {
+                    "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                    "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                    "sampleId": "P-0026442-T01-IM6",
+                    "patientId": "P-0026442",
+                    "studyId": "msk_chord_2024",
+                    "clinicalAttributeId": "SAMPLE_TYPE",
+                    "value": "Primary"
+                },
+                {
+                    "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                    "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                    "sampleId": "P-0026442-T01-IM6",
+                    "patientId": "P-0026442",
+                    "studyId": "msk_chord_2024",
+                    "clinicalAttributeId": "SOMATIC_STATUS",
+                    "value": "Matched"
+                },
+                {
+                    "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                    "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                    "sampleId": "P-0026442-T01-IM6",
+                    "patientId": "P-0026442",
+                    "studyId": "msk_chord_2024",
+                    "clinicalAttributeId": "TMB_NONSYNONYMOUS",
+                    "value": "3.45879238"
+                },
+                {
+                    "uniqueSampleKey": "UC0wMDI2NDQyLVQwMS1JTTY6bXNrX2Nob3JkXzIwMjQ",
+                    "uniquePatientKey": "UC0wMDI2NDQyOm1za19jaG9yZF8yMDI0",
+                    "sampleId": "P-0026442-T01-IM6",
+                    "patientId": "P-0026442",
+                    "studyId": "msk_chord_2024",
+                    "clinicalAttributeId": "TUMOR_PURITY",
+                    "value": "70"
+                }
+            ]
+        }
+    ]
+}

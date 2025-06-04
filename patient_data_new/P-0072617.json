@@ -1,0 +1,655 @@
+{
+    "CLINICAL_DATA": [
+        {
+            "Attribute": "Overall Survival Status",
+            "Value": "0:LIVING"
+        },
+        {
+            "Attribute": "Race",
+            "Value": "White"
+        },
+        {
+            "Attribute": "Sex",
+            "Value": "Female"
+        },
+        {
+            "Attribute": "Stage (Highest Recorded)",
+            "Value": "Stage 1-3"
+        },
+        {
+            "Attribute": "Ethnicity",
+            "Value": "Non-Spanish; Non-Hispanic"
+        },
+        {
+            "Attribute": "Current Age",
+            "Value": "80"
+        },
+        {
+            "Attribute": "Smoking History (NLP)",
+            "Value": "Former/Current Smoker"
+        },
+        {
+            "Attribute": "Prior Treatment to MSK (NLP)",
+            "Value": "No prior medications"
+        },
+        {
+            "Attribute": "Number of Tumor Registry Entries",
+            "Value": "3"
+        },
+        {
+            "Attribute": "Number of Samples Per Patient",
+            "Value": "1"
+        },
+        {
+            "Attribute": "HER2",
+            "Value": "No"
+        },
+        {
+            "Attribute": "HR",
+            "Value": "Yes"
+        },
+        {
+            "Attribute": "Overall Survival (Months)",
+            "Value": "20.5"
+        },
+        {
+            "Attribute": "Tumor Site: Adrenal Glands (NLP)",
+            "Value": "No"
+        },
+        {
+            "Attribute": "Tumor Site: Bone (NLP)",
+            "Value": "No"
+        },
+        {
+            "Attribute": "Tumor Site: CNS/Brain (NLP)",
+            "Value": "No"
+        },
+        {
+            "Attribute": "Tumor Site: Intra Abdominal",
+            "Value": "No"
+        },
+        {
+            "Attribute": "Tumor Site: Liver (NLP)",
+            "Value": "No"
+        },
+        {
+            "Attribute": "Tumor Site: Lung (NLP)",
+            "Value": "No"
+        },
+        {
+            "Attribute": "Tumor Site: Lymph Node (NLP)",
+            "Value": "No"
+        },
+        {
+            "Attribute": "Tumor Site: Other (NLP)",
+            "Value": "Yes"
+        },
+        {
+            "Attribute": "Tumor Site: Pleura (NLP)",
+            "Value": "No"
+        },
+        {
+            "Attribute": "Tumor Site: Reproductive Organs (NLP)",
+            "Value": "No"
+        },
+        {
+            "Attribute": "Cancer Type",
+            "P-0072617-T02-IM7": "Breast Cancer"
+        },
+        {
+            "Attribute": "Clinical Group",
+            "P-0072617-T02-IM7": "1A"
+        },
+        {
+            "Attribute": "Clinical Summary",
+            "P-0072617-T02-IM7": "Localized"
+        },
+        {
+            "Attribute": "Diagnosis Description",
+            "P-0072617-T02-IM7": "Breast"
+        },
+        {
+            "Attribute": "ICD-O Histology Description",
+            "P-0072617-T02-IM7": "Infiltrating Duct Carcinoma"
+        },
+        {
+            "Attribute": "Pathological Group",
+            "P-0072617-T02-IM7": "1A"
+        },
+        {
+            "Attribute": "Cancer Type Detailed",
+            "P-0072617-T02-IM7": "Breast Invasive Ductal Carcinoma"
+        },
+        {
+            "Attribute": "Sample Type",
+            "P-0072617-T02-IM7": "Local Recurrence"
+        },
+        {
+            "Attribute": "MSI Type",
+            "P-0072617-T02-IM7": "Stable"
+        },
+        {
+            "Attribute": "Gene Panel",
+            "P-0072617-T02-IM7": "IMPACT505"
+        },
+        {
+            "Attribute": "Somatic Status",
+            "P-0072617-T02-IM7": "Matched"
+        },
+        {
+            "Attribute": "Sample Class",
+            "P-0072617-T02-IM7": "Tumor"
+        },
+        {
+            "Attribute": "Mutation Count",
+            "P-0072617-T02-IM7": "7"
+        },
+        {
+            "Attribute": "Fraction Genome Altered",
+            "P-0072617-T02-IM7": "0.2098"
+        },
+        {
+            "Attribute": "TMB (nonsynonymous)",
+            "P-0072617-T02-IM7": "5.742430656"
+        },
+        {
+            "Attribute": "MSI Comment",
+            "P-0072617-T02-IM7": "MICROSATELLITE STABLE (MSS). See MSI note below."
+        },
+        {
+            "Attribute": "MSI Score",
+            "P-0072617-T02-IM7": "1.31"
+        },
+        {
+            "Attribute": "Oncotree Code",
+            "P-0072617-T02-IM7": "IDC"
+        },
+        {
+            "Attribute": "Primary Tumor Site",
+            "P-0072617-T02-IM7": "Breast"
+        },
+        {
+            "Attribute": "Sample coverage",
+            "P-0072617-T02-IM7": "529"
+        },
+        {
+            "Attribute": "Tumor Purity",
+            "P-0072617-T02-IM7": "40"
+        }
+    ],
+    "SURGERY": [
+        {
+            "START_DATE": "-4633",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "SURGERY",
+            "SUBTYPE": "PROCEDURE"
+        },
+        {
+            "START_DATE": "-2752",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "SURGERY",
+            "SUBTYPE": "PROCEDURE"
+        },
+        {
+            "START_DATE": "12",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "SURGERY",
+            "SUBTYPE": "PROCEDURE"
+        },
+        {
+            "START_DATE": "12",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "SURGERY",
+            "SUBTYPE": "SAMPLE"
+        },
+        {
+            "START_DATE": "41",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "SURGERY",
+            "SUBTYPE": "PROCEDURE"
+        }
+    ],
+    "TREATMENT": [
+        {
+            "START_DATE": "-4545",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "TREATMENT",
+            "SUBTYPE": "Radiation Therapy",
+            "TREATMENT_TYPE": "",
+            "INFERRED_TX_PROB": "",
+            "PRIOR_MED_TO_MSK": ""
+        },
+        {
+            "START_DATE": "-29",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "TREATMENT",
+            "SUBTYPE": "Prior Medications to MSK",
+            "TREATMENT_TYPE": "Medical Therapy",
+            "INFERRED_TX_PROB": "0.02",
+            "PRIOR_MED_TO_MSK": "No prior medications"
+        }
+    ],
+    "Diagnosis": [
+        {
+            "START_DATE": "-4363",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Progression",
+            "NLP_PROGRESSION_PROBABILITY": "0.016476942",
+            "PROCEDURE_TYPE": "CT",
+            "PROGRESSION": "N",
+            "CHEST": "",
+            "OTHER": "",
+            "HEAD": "",
+            "NLP_HAS_CANCER_PROBABILITY": "",
+            "ABDOMEN": "",
+            "HAS_CANCER": "",
+            "PELVIS": "",
+            "ECOG": "",
+            "TUMOR_SITE": "",
+            "SOURCE": "",
+            "SOURCE_SPECIFIC": "",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": ""
+        },
+        {
+            "START_DATE": "-4363",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "HasCancer",
+            "NLP_PROGRESSION_PROBABILITY": "",
+            "PROCEDURE_TYPE": "CT",
+            "PROGRESSION": "",
+            "CHEST": "FALSE",
+            "OTHER": "TRUE",
+            "HEAD": "FALSE",
+            "NLP_HAS_CANCER_PROBABILITY": "0.00093037",
+            "ABDOMEN": "FALSE",
+            "HAS_CANCER": "N",
+            "PELVIS": "FALSE",
+            "ECOG": "",
+            "TUMOR_SITE": "",
+            "SOURCE": "",
+            "SOURCE_SPECIFIC": "",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": ""
+        },
+        {
+            "START_DATE": "-28",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Performance Status",
+            "NLP_PROGRESSION_PROBABILITY": "",
+            "PROCEDURE_TYPE": "",
+            "PROGRESSION": "",
+            "CHEST": "",
+            "OTHER": "",
+            "HEAD": "",
+            "NLP_HAS_CANCER_PROBABILITY": "",
+            "ABDOMEN": "",
+            "HAS_CANCER": "",
+            "PELVIS": "",
+            "ECOG": "0",
+            "TUMOR_SITE": "",
+            "SOURCE": "",
+            "SOURCE_SPECIFIC": "",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": ""
+        },
+        {
+            "START_DATE": "-21",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Progression",
+            "NLP_PROGRESSION_PROBABILITY": "0.081746496",
+            "PROCEDURE_TYPE": "MR",
+            "PROGRESSION": "N",
+            "CHEST": "",
+            "OTHER": "",
+            "HEAD": "",
+            "NLP_HAS_CANCER_PROBABILITY": "",
+            "ABDOMEN": "",
+            "HAS_CANCER": "",
+            "PELVIS": "",
+            "ECOG": "",
+            "TUMOR_SITE": "",
+            "SOURCE": "",
+            "SOURCE_SPECIFIC": "",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": ""
+        },
+        {
+            "START_DATE": "-21",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "HasCancer",
+            "NLP_PROGRESSION_PROBABILITY": "",
+            "PROCEDURE_TYPE": "MR",
+            "PROGRESSION": "",
+            "CHEST": "FALSE",
+            "OTHER": "TRUE",
+            "HEAD": "FALSE",
+            "NLP_HAS_CANCER_PROBABILITY": "0.9973399",
+            "ABDOMEN": "FALSE",
+            "HAS_CANCER": "Y",
+            "PELVIS": "FALSE",
+            "ECOG": "",
+            "TUMOR_SITE": "",
+            "SOURCE": "",
+            "SOURCE_SPECIFIC": "",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": ""
+        },
+        {
+            "START_DATE": "-21",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Tumor Sites",
+            "NLP_PROGRESSION_PROBABILITY": "",
+            "PROCEDURE_TYPE": "",
+            "PROGRESSION": "",
+            "CHEST": "0",
+            "OTHER": "1",
+            "HEAD": "0",
+            "NLP_HAS_CANCER_PROBABILITY": "",
+            "ABDOMEN": "0",
+            "HAS_CANCER": "",
+            "PELVIS": "0",
+            "ECOG": "",
+            "TUMOR_SITE": "Other",
+            "SOURCE": "Radiology Reports (NLP)",
+            "SOURCE_SPECIFIC": "MR",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": ""
+        },
+        {
+            "START_DATE": "-15",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Progression",
+            "NLP_PROGRESSION_PROBABILITY": "0.30940014",
+            "PROCEDURE_TYPE": "MR",
+            "PROGRESSION": "Indeterminate",
+            "CHEST": "",
+            "OTHER": "",
+            "HEAD": "",
+            "NLP_HAS_CANCER_PROBABILITY": "",
+            "ABDOMEN": "",
+            "HAS_CANCER": "",
+            "PELVIS": "",
+            "ECOG": "",
+            "TUMOR_SITE": "",
+            "SOURCE": "",
+            "SOURCE_SPECIFIC": "",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": ""
+        },
+        {
+            "START_DATE": "-15",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Primary",
+            "NLP_PROGRESSION_PROBABILITY": "",
+            "PROCEDURE_TYPE": "",
+            "PROGRESSION": "",
+            "CHEST": "",
+            "OTHER": "",
+            "HEAD": "",
+            "NLP_HAS_CANCER_PROBABILITY": "",
+            "ABDOMEN": "",
+            "HAS_CANCER": "",
+            "PELVIS": "",
+            "ECOG": "",
+            "TUMOR_SITE": "",
+            "SOURCE": "Tumor Registry",
+            "SOURCE_SPECIFIC": "",
+            "CLINICAL_GROUP": "1A",
+            "SUMMARY": "Localized",
+            "PATH_GROUP": "1A",
+            "DX_DESCRIPTION": "INFILTRATING DUCT CARCINOMA | BREAST, OVERLAPPING LESION OF BREAST (M8500/3 | C508)",
+            "STAGE_CDM_DERIVED": "Stage 1-3"
+        },
+        {
+            "START_DATE": "-15",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "HasCancer",
+            "NLP_PROGRESSION_PROBABILITY": "",
+            "PROCEDURE_TYPE": "MR",
+            "PROGRESSION": "",
+            "CHEST": "FALSE",
+            "OTHER": "TRUE",
+            "HEAD": "FALSE",
+            "NLP_HAS_CANCER_PROBABILITY": "0.07421106",
+            "ABDOMEN": "FALSE",
+            "HAS_CANCER": "N",
+            "PELVIS": "FALSE",
+            "ECOG": "",
+            "TUMOR_SITE": "",
+            "SOURCE": "",
+            "SOURCE_SPECIFIC": "",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": ""
+        },
+        {
+            "START_DATE": "-9",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Progression",
+            "NLP_PROGRESSION_PROBABILITY": "0.041892957",
+            "PROCEDURE_TYPE": "PET",
+            "PROGRESSION": "N",
+            "CHEST": "",
+            "OTHER": "",
+            "HEAD": "",
+            "NLP_HAS_CANCER_PROBABILITY": "",
+            "ABDOMEN": "",
+            "HAS_CANCER": "",
+            "PELVIS": "",
+            "ECOG": "",
+            "TUMOR_SITE": "",
+            "SOURCE": "",
+            "SOURCE_SPECIFIC": "",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": ""
+        },
+        {
+            "START_DATE": "-9",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "HasCancer",
+            "NLP_PROGRESSION_PROBABILITY": "",
+            "PROCEDURE_TYPE": "PET",
+            "PROGRESSION": "",
+            "CHEST": "FALSE",
+            "OTHER": "FALSE",
+            "HEAD": "TRUE",
+            "NLP_HAS_CANCER_PROBABILITY": "0.99859196",
+            "ABDOMEN": "FALSE",
+            "HAS_CANCER": "Y",
+            "PELVIS": "FALSE",
+            "ECOG": "",
+            "TUMOR_SITE": "",
+            "SOURCE": "",
+            "SOURCE_SPECIFIC": "",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": ""
+        },
+        {
+            "START_DATE": "-9",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Tumor Sites",
+            "NLP_PROGRESSION_PROBABILITY": "",
+            "PROCEDURE_TYPE": "",
+            "PROGRESSION": "",
+            "CHEST": "0",
+            "OTHER": "0",
+            "HEAD": "1",
+            "NLP_HAS_CANCER_PROBABILITY": "",
+            "ABDOMEN": "0",
+            "HAS_CANCER": "",
+            "PELVIS": "0",
+            "ECOG": "",
+            "TUMOR_SITE": "Other",
+            "SOURCE": "Radiology Reports (NLP)",
+            "SOURCE_SPECIFIC": "PET",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": ""
+        },
+        {
+            "START_DATE": "200",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Performance Status",
+            "NLP_PROGRESSION_PROBABILITY": "",
+            "PROCEDURE_TYPE": "",
+            "PROGRESSION": "",
+            "CHEST": "",
+            "OTHER": "",
+            "HEAD": "",
+            "NLP_HAS_CANCER_PROBABILITY": "",
+            "ABDOMEN": "",
+            "HAS_CANCER": "",
+            "PELVIS": "",
+            "ECOG": "1",
+            "TUMOR_SITE": "",
+            "SOURCE": "",
+            "SOURCE_SPECIFIC": "",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": ""
+        },
+        {
+            "START_DATE": "596",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Progression",
+            "NLP_PROGRESSION_PROBABILITY": "0.15041867",
+            "PROCEDURE_TYPE": "PET",
+            "PROGRESSION": "N",
+            "CHEST": "",
+            "OTHER": "",
+            "HEAD": "",
+            "NLP_HAS_CANCER_PROBABILITY": "",
+            "ABDOMEN": "",
+            "HAS_CANCER": "",
+            "PELVIS": "",
+            "ECOG": "",
+            "TUMOR_SITE": "",
+            "SOURCE": "",
+            "SOURCE_SPECIFIC": "",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": ""
+        },
+        {
+            "START_DATE": "596",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "HasCancer",
+            "NLP_PROGRESSION_PROBABILITY": "",
+            "PROCEDURE_TYPE": "PET",
+            "PROGRESSION": "",
+            "CHEST": "FALSE",
+            "OTHER": "FALSE",
+            "HEAD": "TRUE",
+            "NLP_HAS_CANCER_PROBABILITY": "0.00363445",
+            "ABDOMEN": "FALSE",
+            "HAS_CANCER": "N",
+            "PELVIS": "FALSE",
+            "ECOG": "",
+            "TUMOR_SITE": "",
+            "SOURCE": "",
+            "SOURCE_SPECIFIC": "",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "PATH_GROUP": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": ""
+        }
+    ],
+    "LAB_TEST": [
+        {
+            "START_DATE": "-29",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "LAB_TEST",
+            "TEST": "CEA",
+            "LR_UNIT_MEASURE": "ng/ml",
+            "RESULT": "2.5"
+        },
+        {
+            "START_DATE": "-29",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "LAB_TEST",
+            "TEST": "CA_15-3",
+            "LR_UNIT_MEASURE": "Units/ml",
+            "RESULT": "26"
+        }
+    ],
+    "Sample acquisition": [
+        {
+            "START_DATE": "-15",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Sample acquisition",
+            "SEQ_DATE": "0",
+            "SAMPLE_ID": "P-0072617-T02-IM7"
+        }
+    ],
+    "Sequencing": [
+        {
+            "START_DATE": "0",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Sequencing",
+            "SAMPLE_ID": "P-0072617-T02-IM7"
+        }
+    ],
+    "Treatment": [
+        {
+            "START_DATE": "69",
+            "STOP_DATE": "623",
+            "EVENT_TYPE": "Treatment",
+            "SUBTYPE": "Hormone",
+            "AGENT": "LETROZOLE",
+            "RX_INVESTIGATIVE": "N",
+            "FLAG_OROTOPICAL": "1"
+        }
+    ]
+}
