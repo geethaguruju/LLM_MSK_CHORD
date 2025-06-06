@@ -1,0 +1,452 @@
+[
+  {
+    "displayName": "Tumor Site: Adrenal Glands (NLP)",
+    "description": "DESCRIPTION: History of Adrenal Gland as a tumor site as indicated in radiology report impression ---MISSING DATA: No CT/PET/MRI radiology report available for patient. impression section MISSING from report. ---SOURCE:(CDM) Generated (NLP)",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "0",
+    "clinicalAttributeId": "ADRENAL_GLANDS",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Tumor Site: Bone (NLP)",
+    "description": "DESCRIPTION: History of Bone as a tumor site as indicated in radiology report impression ---MISSING DATA: No CT/PET/MRI radiology report available for patient. impression section MISSING from report. ---SOURCE:(CDM) Generated (NLP)",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "0",
+    "clinicalAttributeId": "BONE",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Cancer Type",
+    "description": "The main cancer type as defined by the Oncotree cancer classification system for precision oncology. Source: MPath",
+    "datatype": "STRING",
+    "patientAttribute": false,
+    "priority": "3000",
+    "clinicalAttributeId": "CANCER_TYPE",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Cancer Type Detailed",
+    "description": "The cancer subtype as defined by the Oncotree cancer classification system for precision oncology. Source: MPath",
+    "datatype": "STRING",
+    "patientAttribute": false,
+    "priority": "2000",
+    "clinicalAttributeId": "CANCER_TYPE_DETAILED",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Clinical Group",
+    "description": "Clinical Group",
+    "datatype": "STRING",
+    "patientAttribute": false,
+    "priority": "3000",
+    "clinicalAttributeId": "CLINICAL_GROUP",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Clinical Summary",
+    "description": "Clinical Summary",
+    "datatype": "STRING",
+    "patientAttribute": false,
+    "priority": "3000",
+    "clinicalAttributeId": "CLINICAL_SUMMARY",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Tumor Site: CNS/Brain (NLP)",
+    "description": "DESCRIPTION: History of CNS/Brain as a tumor site as indicated in radiology report impression ---MISSING DATA: No CT/PET/MRI radiology report available for patient. impression section MISSING from report. ---SOURCE:(CDM) Generated (NLP)",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "0",
+    "clinicalAttributeId": "CNS_BRAIN",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Current Age",
+    "description": "DESCRIPTION: Current age (limit 89). Derived from Birthdate (RMS) ---MISSING DATA: Contact RMS Database Maintainers ---SOURCE:CDM Generated (Via IDB/RMS dates)",
+    "datatype": "NUMBER",
+    "patientAttribute": true,
+    "priority": "880",
+    "clinicalAttributeId": "CURRENT_AGE_DEID",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Diagnosis Description",
+    "description": "Diagnosis Description",
+    "datatype": "STRING",
+    "patientAttribute": false,
+    "priority": "3000",
+    "clinicalAttributeId": "DIAGNOSIS_DESCRIPTION",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Ethnicity",
+    "description": "DESCRIPTION: Ethnicity, self-reported ---MISSING DATA: patient did not provide ---SOURCE:(IDB) (RMS)",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "950",
+    "clinicalAttributeId": "ETHNICITY",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Fraction Genome Altered",
+    "description": "Fraction Genome Altered",
+    "datatype": "NUMBER",
+    "patientAttribute": false,
+    "priority": "20",
+    "clinicalAttributeId": "FRACTION_GENOME_ALTERED",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Sex",
+    "description": "Gender at birth",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "970",
+    "clinicalAttributeId": "GENDER",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Gene Panel",
+    "description": "The gene panel or assay used used to perform targeted NGS on the sample. Source: MPath",
+    "datatype": "STRING",
+    "patientAttribute": false,
+    "priority": "900",
+    "clinicalAttributeId": "GENE_PANEL",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Gleason Score, 1st Reported (NLP)",
+    "description": "DESCRIPTION: Patient level summary of the 1st reported Gleason score from pathology reports. NLP used to derive ---MISSING DATA: No reported Gleason Score for patient. Rule-based NLP did not sense the word gleason any pathology reports. ---SOURCE:CDM Generated (NLP)",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "0",
+    "clinicalAttributeId": "GLEASON_FIRST_REPORTED",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Gleason Score, Highest Reported (NLP)",
+    "description": "DESCRIPTION: Patient level summary of the highest reported Gleason score from pathology reports. NLP used to derive ---MISSING DATA: No reported Gleason Score for patient. Rule-based NLP did not sense the word gleason any pathology reports. ---SOURCE:CDM Generated (NLP)",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "750",
+    "clinicalAttributeId": "GLEASON_HIGHEST_REPORTED",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Gleason Score Reported on Sample (NLP)",
+    "description": "DESCRIPTION: Sample summary of the Gleason score reported on the specified sample ID at the time of surgery or biopsy ---MISSING DATA: No reported Gleason Score for patient. Rule-based NLP did not sense the word gleason any pathology reports. ---SOURCE:CDM Generated (NLP)",
+    "datatype": "STRING",
+    "patientAttribute": false,
+    "priority": "0",
+    "clinicalAttributeId": "GLEASON_SAMPLE_LEVEL",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "HER2",
+    "description": "HER2",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "0",
+    "clinicalAttributeId": "HER2",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "History for Positive PD-L1 (NLP)",
+    "description": "DESCRIPTION: History if patient ever had a pathology specimen annotated as PD-L1 positive ---MISSING DATA: patient not tested for PD-L1 ---SOURCE:(CDM) Generated (NLP)",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "740",
+    "clinicalAttributeId": "HISTORY_OF_PDL1",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "HR",
+    "description": "HR",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "0",
+    "clinicalAttributeId": "HR",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "ICD-O Histology Description",
+    "description": "ICD-O Histology Description",
+    "datatype": "STRING",
+    "patientAttribute": false,
+    "priority": "3000",
+    "clinicalAttributeId": "ICD_O_HISTOLOGY_DESCRIPTION",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Tumor Site: Intra Abdominal",
+    "description": "Intra Abdominal",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "0",
+    "clinicalAttributeId": "INTRA_ABDOMINAL",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Tumor Site: Liver (NLP)",
+    "description": "DESCRIPTION: History of Liver as a tumor site as indicated in radiology report impression ---MISSING DATA: No CT/PET/MRI radiology report available for patient. impression section MISSING from report. ---SOURCE:(CDM) Generated (NLP)",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "0",
+    "clinicalAttributeId": "LIVER",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Tumor Site: Lung (NLP)",
+    "description": "DESCRIPTION: History of Lung as a tumor site as indicated in radiology report impression ---MISSING DATA: No CT/PET/MRI radiology report available for patient. impression section MISSING from report. ---SOURCE:(CDM) Generated (NLP)",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "0",
+    "clinicalAttributeId": "LUNG",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Tumor Site: Lymph Node (NLP)",
+    "description": "DESCRIPTION: History of LN as a tumor site as indicated in radiology report impression ---MISSING DATA: No CT/PET/MRI radiology report available for patient. impression section MISSING from report. ---SOURCE:(CDM) Generated (NLP)",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "0",
+    "clinicalAttributeId": "LYMPH_NODES",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Metastatic Site",
+    "description": "Location of profiled metastatic site",
+    "datatype": "STRING",
+    "patientAttribute": false,
+    "priority": "0",
+    "clinicalAttributeId": "METASTATIC_SITE",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "MSI Comment",
+    "description": "MSI interpretation. Source: MPath",
+    "datatype": "STRING",
+    "patientAttribute": false,
+    "priority": "0",
+    "clinicalAttributeId": "MSI_COMMENT",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "MSI Score",
+    "description": "Microsatellite Instability (MSI) score. Source: MPath",
+    "datatype": "NUMBER",
+    "patientAttribute": false,
+    "priority": "0",
+    "clinicalAttributeId": "MSI_SCORE",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "MSI Type",
+    "description": "Directly related to MSI Score; Possible values include Stable, Instable, Indeterminate, or Do not report. Source: MPath",
+    "datatype": "STRING",
+    "patientAttribute": false,
+    "priority": "910",
+    "clinicalAttributeId": "MSI_TYPE",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Mutation Count",
+    "description": "Mutation Count",
+    "datatype": "NUMBER",
+    "patientAttribute": false,
+    "priority": "30",
+    "clinicalAttributeId": "MUTATION_COUNT",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Number of Tumor Registry Entries",
+    "description": "DESCRIPTION: Number of Tumor Registry Entries for patient ---MISSING DATA: No tumor registry data entered for patient ---SOURCE:CDM Generated (Via IDB/RMS dates)",
+    "datatype": "NUMBER",
+    "patientAttribute": true,
+    "priority": "730",
+    "clinicalAttributeId": "NUM_ICDO_DX",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Oncotree Code",
+    "description": "The assigned Oncotree code of the sample as defined by the Oncotree cancer classification system for precision oncology.",
+    "datatype": "STRING",
+    "patientAttribute": false,
+    "priority": "0",
+    "clinicalAttributeId": "ONCOTREE_CODE",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Overall Survival (Months)",
+    "description": "DESCRIPTION: Overall survival from date of first sequenced sample to date of death or last contact. If patient died before first sequencing, overall survival in months is set to '0'. If patient is alive and last contact date is before date of sequencing,overall survival in months is set to 'NA'. Derived from PT_DEATH_DTE, PLA_LAST_CONTACT_DTE and date of sequencing for first specimen sequenced for patient. ---MISSING DATA: Last contact date, sequencing date missing in RMS ---SOURCE:CDM Generated (Via IDB/RMS dates)",
+    "datatype": "NUMBER",
+    "patientAttribute": true,
+    "priority": "0",
+    "clinicalAttributeId": "OS_MONTHS",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Overall Survival Status",
+    "description": "DESCRIPTION: The patient's survival status; is the patient alive or deceased. ---MISSING DATA: Last contact date, sequencing date missing in RMS ---SOURCE:CDM Generated (Via IDB/RMS dates)",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "1000",
+    "clinicalAttributeId": "OS_STATUS",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Tumor Site: Other (NLP)",
+    "description": "DESCRIPTION: History of another site as a tumor site as indicated in radiology report impression ---MISSING DATA: No CT/PET/MRI radiology report available for patient. impression section MISSING from report. ---SOURCE:(CDM) Generated (NLP)",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "0",
+    "clinicalAttributeId": "OTHER",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Pathological Group",
+    "description": "Pathological Group",
+    "datatype": "STRING",
+    "patientAttribute": false,
+    "priority": "3000",
+    "clinicalAttributeId": "PATHOLOGICAL_GROUP",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Sample PD-L1 Positive (NLP)",
+    "description": "DESCRIPTION: Indication if specimen was labeled as PD-L1 positive in surgical pathology report ---MISSING DATA: Patient not tested for PD-L1 ---SOURCE:(CDM) Generated (NLP)",
+    "datatype": "STRING",
+    "patientAttribute": false,
+    "priority": "0",
+    "clinicalAttributeId": "PDL1_POSITIVE",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Tumor Site: Pleura (NLP)",
+    "description": "DESCRIPTION: History of Pleura as a tumor site as indicated in radiology report impression ---MISSING DATA: No CT/PET/MRI radiology report available for patient. impression section MISSING from report. ---SOURCE:(CDM) Generated (NLP)",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "0",
+    "clinicalAttributeId": "PLEURA",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Primary Tumor Site",
+    "description": "The organ sub-division term assigned to the primary tumor location of the sample. Source: MPath",
+    "datatype": "STRING",
+    "patientAttribute": false,
+    "priority": "0",
+    "clinicalAttributeId": "PRIMARY_SITE",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Prior Treatment to MSK (NLP)",
+    "description": "DESCRIPTION: Binary indication if patient recieve anti-cancer medication prior to MSK ---MISSING DATA: Initial consult (IC) notes need to be (1) within a list of acceptable note types, (2) be within 90 days of first MSK dates if patients have multiple primaries. Note types consist of medical oncologists, radiation oncologists, surgery, inpatient services and others, as they are most likely to contain information about external treatments prior to MSK. ---SOURCE:CDM Generated (NLP)",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "760",
+    "clinicalAttributeId": "PRIOR_MED_TO_MSK",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Race",
+    "description": "DESCRIPTION: Race, self-reported ---MISSING DATA: patient did not provide ---SOURCE:(IDB) (RMS)",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "980",
+    "clinicalAttributeId": "RACE",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Tumor Site: Reproductive Organs (NLP)",
+    "description": "DESCRIPTION: History of Reproductive Organs as a tumor site as indicated in radiology report impression ---MISSING DATA: No CT/PET/MRI radiology report available for patient. impression section MISSING from report. ---SOURCE:(CDM) Generated (NLP)",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "0",
+    "clinicalAttributeId": "REPRODUCTIVE_ORGANS",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Sample Class",
+    "description": "The sample classification (i.e., tumor, cellline, xenograph).Source: MPath",
+    "datatype": "STRING",
+    "patientAttribute": false,
+    "priority": "850",
+    "clinicalAttributeId": "SAMPLE_CLASS",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Number of Samples Per Patient",
+    "description": "Number of Samples Per Patient",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "1",
+    "clinicalAttributeId": "SAMPLE_COUNT",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Sample coverage",
+    "description": "Sequencing coverage. Source: MPath",
+    "datatype": "NUMBER",
+    "patientAttribute": false,
+    "priority": "0",
+    "clinicalAttributeId": "SAMPLE_COVERAGE",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Sample Type",
+    "description": "The type assigned to a sample (i.e., normal, primary, met, recurrence). Source: MPath",
+    "datatype": "STRING",
+    "patientAttribute": false,
+    "priority": "990",
+    "clinicalAttributeId": "SAMPLE_TYPE",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Smoking History (NLP)",
+    "description": "DESCRIPTION: Inferred smoking history. Classes: Current/Former, Never, Unknown ---MISSING DATA: The patient might not have had a 'Smoking Status' section in their Clindoc note. Potential factor for older notes, if the formatting of the section has changed; majority are from 2015-->present. ---SOURCE:CDM Generated (NLP)",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "870",
+    "clinicalAttributeId": "SMOKING_PREDICTIONS_3_CLASSES",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Somatic Status",
+    "description": "Indicates if there exists a matched normal used for tumor sample analysis. Source: MPath",
+    "datatype": "STRING",
+    "patientAttribute": false,
+    "priority": "860",
+    "clinicalAttributeId": "SOMATIC_STATUS",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Stage (Highest Recorded)",
+    "description": "DESCRIPTION: Highest recorded stage in tumor registry (ICD-O). Data has been aggregated from the CDM derived stage information, which bins stage in stage 1-3 and stage 4. ---MISSING DATA: Stage data not entered by admins in tumor registry ---SOURCE:CDM Generated (Via IDB/RMS dates)",
+    "datatype": "STRING",
+    "patientAttribute": true,
+    "priority": "960",
+    "clinicalAttributeId": "STAGE_HIGHEST_RECORDED",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "TMB (nonsynonymous)",
+    "description": "TMB (nonsynonymous)",
+    "datatype": "NUMBER",
+    "patientAttribute": false,
+    "priority": "1",
+    "clinicalAttributeId": "TMB_NONSYNONYMOUS",
+    "studyId": "msk_chord_2024"
+  },
+  {
+    "displayName": "Tumor Purity",
+    "description": "Proportion of cancer cells in tumor sample. Source: MPath",
+    "datatype": "NUMBER",
+    "patientAttribute": false,
+    "priority": "0",
+    "clinicalAttributeId": "TUMOR_PURITY",
+    "studyId": "msk_chord_2024"
+  }
+]

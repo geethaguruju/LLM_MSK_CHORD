@@ -25,7 +25,7 @@ with open("patient_ids.txt", "w") as file:
 BASE_URL = "https://www.cbioportal.org/patient/clinicalData?studyId=msk_chord_2024&caseId="
 
 def process_patient(pid):
-    output_path = f"patient_data_new/{pid}.json"
+    output_path = f"patient_data_scraped/{pid}.json"
     if os.path.exists(output_path):
         return  # Skip already processed
 
@@ -40,7 +40,7 @@ def process_patient(pid):
     try:
         url = f"{BASE_URL}{pid}"
         driver.get(url)
-        time.sleep(5)
+        time.sleep(12)
 
         tables = driver.find_elements(By.TAG_NAME, "table")[1:]  # skip summary table
         extracted_tables = []
@@ -65,9 +65,9 @@ def process_patient(pid):
         with open(output_path, "w") as json_file:
             json.dump(json_tables, json_file, indent=4)
 
-        # with open("processed_patients.txt", "a") as log_file:
-        #     log_file.write(f"{pid}\n")
-        # print(f"Processed: {pid}")
+        with open("processed_patients.txt", "a") as log_file:
+            log_file.write(f"{pid}\n")
+        print(f"Processed: {pid}")
 
     except Exception as e:
         with open("failed_patient_data.txt", "a") as fail_file:
@@ -77,7 +77,7 @@ def process_patient(pid):
         driver.quit()
 
 if __name__ == "__main__":
-    os.makedirs("patient_data_new", exist_ok=True)
+    os.makedirs("patient_data_scraped", exist_ok=True)
 
     with Manager() as manager:
         with Pool(processes=10) as pool:

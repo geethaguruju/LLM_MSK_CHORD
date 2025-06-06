@@ -1,0 +1,226 @@
+{
+    "CLINICAL_DATA": [
+        {
+            "Attribute": "Overall Survival Status",
+            "Value": "0:LIVING"
+        },
+        {
+            "Attribute": "Race",
+            "Value": "No Value Entered"
+        },
+        {
+            "Attribute": "Sex",
+            "Value": "Female"
+        },
+        {
+            "Attribute": "Stage (Highest Recorded)",
+            "Value": "Stage 1-3"
+        },
+        {
+            "Attribute": "Ethnicity",
+            "Value": "Unknown whether Spanish or not"
+        },
+        {
+            "Attribute": "Current Age",
+            "Value": "62"
+        },
+        {
+            "Attribute": "Smoking History (NLP)",
+            "Value": "Never"
+        },
+        {
+            "Attribute": "Prior Treatment to MSK (NLP)",
+            "Value": "Prior medications to MSK"
+        },
+        {
+            "Attribute": "Number of Tumor Registry Entries",
+            "Value": "1"
+        },
+        {
+            "Attribute": "Number of Samples Per Patient",
+            "Value": "1"
+        },
+        {
+            "Attribute": "HER2",
+            "Value": "No"
+        },
+        {
+            "Attribute": "HR",
+            "Value": "No"
+        },
+        {
+            "Attribute": "Overall Survival (Months)",
+            "Value": "< 0.1"
+        },
+        {
+            "Attribute": "Tumor Site: Adrenal Glands (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Bone (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: CNS/Brain (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Intra Abdominal",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Liver (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Lung (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Lymph Node (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Other (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Pleura (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Tumor Site: Reproductive Organs (NLP)",
+            "Value": "Unknown"
+        },
+        {
+            "Attribute": "Cancer Type",
+            "P-0070059-T01-IM7": "Breast Cancer"
+        },
+        {
+            "Attribute": "Clinical Group",
+            "P-0070059-T01-IM7": "3B"
+        },
+        {
+            "Attribute": "Clinical Summary",
+            "P-0070059-T01-IM7": "Regional To Lymph Nodes"
+        },
+        {
+            "Attribute": "Diagnosis Description",
+            "P-0070059-T01-IM7": "Breast"
+        },
+        {
+            "Attribute": "ICD-O Histology Description",
+            "P-0070059-T01-IM7": "Infiltrating Duct Carcinoma"
+        },
+        {
+            "Attribute": "Pathological Group",
+            "P-0070059-T01-IM7": "0"
+        },
+        {
+            "Attribute": "Cancer Type Detailed",
+            "P-0070059-T01-IM7": "Invasive Breast Carcinoma"
+        },
+        {
+            "Attribute": "Sample Type",
+            "P-0070059-T01-IM7": "Metastasis"
+        },
+        {
+            "Attribute": "Gene Panel",
+            "P-0070059-T01-IM7": "IMPACT505"
+        },
+        {
+            "Attribute": "Somatic Status",
+            "P-0070059-T01-IM7": "Matched"
+        },
+        {
+            "Attribute": "Sample Class",
+            "P-0070059-T01-IM7": "Tumor"
+        },
+        {
+            "Attribute": "Mutation Count",
+            "P-0070059-T01-IM7": "5"
+        },
+        {
+            "Attribute": "Fraction Genome Altered",
+            "P-0070059-T01-IM7": "0.1915"
+        },
+        {
+            "Attribute": "TMB (nonsynonymous)",
+            "P-0070059-T01-IM7": "4.101736183"
+        },
+        {
+            "Attribute": "Metastatic Site",
+            "P-0070059-T01-IM7": "Lymph Node"
+        },
+        {
+            "Attribute": "Oncotree Code",
+            "P-0070059-T01-IM7": "BRCA"
+        },
+        {
+            "Attribute": "Primary Tumor Site",
+            "P-0070059-T01-IM7": "Breast"
+        },
+        {
+            "Attribute": "Sample coverage",
+            "P-0070059-T01-IM7": "424"
+        },
+        {
+            "Attribute": "Tumor Purity",
+            "P-0070059-T01-IM7": "50"
+        }
+    ],
+    "Diagnosis": [
+        {
+            "START_DATE": "-1008",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Primary",
+            "CLINICAL_GROUP": "3B",
+            "SUMMARY": "Regional to lymph nodes",
+            "SOURCE": "Tumor Registry",
+            "DX_DESCRIPTION": "INFILTRATING DUCT CARCINOMA | BREAST, NOS (M8500/3 | C509)",
+            "STAGE_CDM_DERIVED": "Stage 1-3",
+            "ECOG": ""
+        },
+        {
+            "START_DATE": "-35",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Diagnosis",
+            "SUBTYPE": "Performance Status",
+            "CLINICAL_GROUP": "",
+            "SUMMARY": "",
+            "SOURCE": "",
+            "DX_DESCRIPTION": "",
+            "STAGE_CDM_DERIVED": "",
+            "ECOG": "0"
+        }
+    ],
+    "Sample acquisition": [
+        {
+            "START_DATE": "-552",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Sample acquisition",
+            "SEQ_DATE": "0",
+            "SAMPLE_ID": "P-0070059-T01-IM7"
+        }
+    ],
+    "TREATMENT": [
+        {
+            "START_DATE": "-35",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "TREATMENT",
+            "SUBTYPE": "Prior Medications to MSK",
+            "TREATMENT_TYPE": "Medical Therapy",
+            "INFERRED_TX_PROB": "0.99",
+            "PRIOR_MED_TO_MSK": "Prior medications to MSK"
+        }
+    ],
+    "Sequencing": [
+        {
+            "START_DATE": "0",
+            "STOP_DATE": "",
+            "EVENT_TYPE": "Sequencing",
+            "SAMPLE_ID": "P-0070059-T01-IM7"
+        }
+    ]
+}

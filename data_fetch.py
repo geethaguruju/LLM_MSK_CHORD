@@ -6,7 +6,7 @@ from tqdm import tqdm
 BASE_URL = "https://www.cbioportal.org/api"
 HEADERS = {"Accept": "application/json"}
 STUDY_ID = "msk_chord_2024"
-OUTPUT_DIR = "patient_data_api_full"
+OUTPUT_DIR = "patient_data_api"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Step 1: Get all patients
