@@ -1,0 +1,199 @@
+- `ADRENAL_GLANDS` (string, patient-level) | priority: LOW
+  Label: Tumor Site: Adrenal Glands (NLP)
+  Description: DESCRIPTION: History of Adrenal Gland as a tumor site as indicated in radiology report impression
+
+- `BONE` (string, patient-level) | priority: LOW
+  Label: Tumor Site: Bone (NLP)
+  Description: DESCRIPTION: History of Bone as a tumor site as indicated in radiology report impression
+
+- `CANCER_TYPE` (string, sample-level) | priority: HIGH
+  Label: Cancer Type
+  Description: The main cancer type as defined by the Oncotree cancer classification system for precision oncology. Source: MPath
+
+- `CANCER_TYPE_DETAILED` (string, sample-level) | priority: HIGH
+  Label: Cancer Type Detailed
+  Description: The cancer subtype as defined by the Oncotree cancer classification system for precision oncology. Source: MPath
+
+- `CLINICAL_GROUP` (string, sample-level) | priority: HIGH
+  Label: Clinical Group
+  Description: Clinical Group
+
+- `CLINICAL_SUMMARY` (string, sample-level) | priority: HIGH
+  Label: Clinical Summary
+  Description: Clinical Summary
+
+- `CNS_BRAIN` (string, patient-level) | priority: LOW
+  Label: Tumor Site: CNS/Brain (NLP)
+  Description: DESCRIPTION: History of CNS/Brain as a tumor site as indicated in radiology report impression
+
+- `CURRENT_AGE_DEID` (number, patient-level) | priority: MEDIUM
+  Label: Current Age
+  Description: DESCRIPTION: Current age (limit 89). Derived from Birthdate (RMS)
+
+- `DIAGNOSIS_DESCRIPTION` (string, sample-level) | priority: HIGH
+  Label: Diagnosis Description
+  Description: Diagnosis Description
+
+- `ETHNICITY` (string, patient-level) | priority: HIGH
+  Label: Ethnicity
+  Description: DESCRIPTION: Ethnicity, self-reported
+
+- `FRACTION_GENOME_ALTERED` (number, sample-level) | priority: LOW
+  Label: Fraction Genome Altered
+  Description: Fraction Genome Altered
+
+- `GENDER` (string, patient-level) | priority: HIGH
+  Label: Sex
+  Description: Gender at birth
+
+- `GENE_PANEL` (string, sample-level) | priority: HIGH
+  Label: Gene Panel
+  Description: The gene panel or assay used used to perform targeted NGS on the sample. Source: MPath
+
+- `GLEASON_FIRST_REPORTED` (string, patient-level) | priority: LOW
+  Label: Gleason Score, 1st Reported (NLP)
+  Description: DESCRIPTION: Patient level summary of the 1st reported Gleason score from pathology reports. NLP used to derive
+
+- `GLEASON_HIGHEST_REPORTED` (string, patient-level) | priority: MEDIUM
+  Label: Gleason Score, Highest Reported (NLP)
+  Description: DESCRIPTION: Patient level summary of the highest reported Gleason score from pathology reports. NLP used to derive
+
+- `GLEASON_SAMPLE_LEVEL` (string, sample-level) | priority: LOW
+  Label: Gleason Score Reported on Sample (NLP)
+  Description: DESCRIPTION: Sample summary of the Gleason score reported on the specified sample ID at the time of surgery or biopsy
+
+- `HER2` (string, patient-level) | priority: LOW
+  Label: HER2
+  Description: HER2
+
+- `HISTORY_OF_PDL1` (string, patient-level) | priority: MEDIUM
+  Label: History for Positive PD-L1 (NLP)
+  Description: DESCRIPTION: History if patient ever had a pathology specimen annotated as PD-L1 positive
+
+- `HR` (string, patient-level) | priority: LOW
+  Label: HR
+  Description: HR
+
+- `ICD_O_HISTOLOGY_DESCRIPTION` (string, sample-level) | priority: HIGH
+  Label: ICD-O Histology Description
+  Description: ICD-O Histology Description
+
+- `INTRA_ABDOMINAL` (string, patient-level) | priority: LOW
+  Label: Tumor Site: Intra Abdominal
+  Description: Intra Abdominal
+
+- `LIVER` (string, patient-level) | priority: LOW
+  Label: Tumor Site: Liver (NLP)
+  Description: DESCRIPTION: History of Liver as a tumor site as indicated in radiology report impression
+
+- `LUNG` (string, patient-level) | priority: LOW
+  Label: Tumor Site: Lung (NLP)
+  Description: DESCRIPTION: History of Lung as a tumor site as indicated in radiology report impression
+
+- `LYMPH_NODES` (string, patient-level) | priority: LOW
+  Label: Tumor Site: Lymph Node (NLP)
+  Description: DESCRIPTION: History of LN as a tumor site as indicated in radiology report impression
+
+- `METASTATIC_SITE` (string, sample-level) | priority: LOW
+  Label: Metastatic Site
+  Description: Location of profiled metastatic site
+
+- `MSI_COMMENT` (string, sample-level) | priority: LOW
+  Label: MSI Comment
+  Description: MSI interpretation. Source: MPath
+
+- `MSI_SCORE` (number, sample-level) | priority: LOW
+  Label: MSI Score
+  Description: Microsatellite Instability (MSI) score. Source: MPath
+
+- `MSI_TYPE` (string, sample-level) | priority: HIGH
+  Label: MSI Type
+  Description: Directly related to MSI Score; Possible values include Stable, Instable, Indeterminate, or Do not report. Source: MPath
+
+- `MUTATION_COUNT` (number, sample-level) | priority: LOW
+  Label: Mutation Count
+  Description: Mutation Count
+
+- `NUM_ICDO_DX` (number, patient-level) | priority: MEDIUM
+  Label: Number of Tumor Registry Entries
+  Description: DESCRIPTION: Number of Tumor Registry Entries for patient
+
+- `ONCOTREE_CODE` (string, sample-level) | priority: LOW
+  Label: Oncotree Code
+  Description: The assigned Oncotree code of the sample as defined by the Oncotree cancer classification system for precision oncology.
+
+- `OS_MONTHS` (number, patient-level) | priority: LOW
+  Label: Overall Survival (Months)
+  Description: DESCRIPTION: Overall survival from date of first sequenced sample to date of death or last contact. If patient died before first sequencing, overall survival in months is set to '0'. If patient is alive and last contact date is before date of sequencing,overall survival in months is set to 'NA'. Der
+
+- `OS_STATUS` (string, patient-level) | priority: HIGH
+  Label: Overall Survival Status
+  Description: DESCRIPTION: The patient's survival status; is the patient alive or deceased.
+
+- `OTHER` (string, patient-level) | priority: LOW
+  Label: Tumor Site: Other (NLP)
+  Description: DESCRIPTION: History of another site as a tumor site as indicated in radiology report impression
+
+- `PATHOLOGICAL_GROUP` (string, sample-level) | priority: HIGH
+  Label: Pathological Group
+  Description: Pathological Group
+
+- `PDL1_POSITIVE` (string, sample-level) | priority: LOW
+  Label: Sample PD-L1 Positive (NLP)
+  Description: DESCRIPTION: Indication if specimen was labeled as PD-L1 positive in surgical pathology report
+
+- `PLEURA` (string, patient-level) | priority: LOW
+  Label: Tumor Site: Pleura (NLP)
+  Description: DESCRIPTION: History of Pleura as a tumor site as indicated in radiology report impression
+
+- `PRIMARY_SITE` (string, sample-level) | priority: LOW
+  Label: Primary Tumor Site
+  Description: The organ sub-division term assigned to the primary tumor location of the sample. Source: MPath
+
+- `PRIOR_MED_TO_MSK` (string, patient-level) | priority: MEDIUM
+  Label: Prior Treatment to MSK (NLP)
+  Description: DESCRIPTION: Binary indication if patient recieve anti-cancer medication prior to MSK
+
+- `RACE` (string, patient-level) | priority: HIGH
+  Label: Race
+  Description: DESCRIPTION: Race, self-reported
+
+- `REPRODUCTIVE_ORGANS` (string, patient-level) | priority: LOW
+  Label: Tumor Site: Reproductive Organs (NLP)
+  Description: DESCRIPTION: History of Reproductive Organs as a tumor site as indicated in radiology report impression
+
+- `SAMPLE_CLASS` (string, sample-level) | priority: MEDIUM
+  Label: Sample Class
+  Description: The sample classification (i.e., tumor, cellline, xenograph).Source: MPath
+
+- `SAMPLE_COUNT` (string, patient-level) | priority: LOW
+  Label: Number of Samples Per Patient
+  Description: Number of Samples Per Patient
+
+- `SAMPLE_COVERAGE` (number, sample-level) | priority: LOW
+  Label: Sample coverage
+  Description: Sequencing coverage. Source: MPath
+
+- `SAMPLE_TYPE` (string, sample-level) | priority: HIGH
+  Label: Sample Type
+  Description: The type assigned to a sample (i.e., normal, primary, met, recurrence). Source: MPath
+
+- `SMOKING_PREDICTIONS_3_CLASSES` (string, patient-level) | priority: MEDIUM
+  Label: Smoking History (NLP)
+  Description: DESCRIPTION: Inferred smoking history. Classes: Current/Former, Never, Unknown
+
+- `SOMATIC_STATUS` (string, sample-level) | priority: MEDIUM
+  Label: Somatic Status
+  Description: Indicates if there exists a matched normal used for tumor sample analysis. Source: MPath
+
+- `STAGE_HIGHEST_RECORDED` (string, patient-level) | priority: HIGH
+  Label: Stage (Highest Recorded)
+  Description: DESCRIPTION: Highest recorded stage in tumor registry (ICD-O). Data has been aggregated from the CDM derived stage information, which bins stage in stage 1-3 and stage 4.
+
+- `TMB_NONSYNONYMOUS` (number, sample-level) | priority: LOW
+  Label: TMB (nonsynonymous)
+  Description: TMB (nonsynonymous)
+
+- `TUMOR_PURITY` (number, sample-level) | priority: LOW
+  Label: Tumor Purity
+  Description: Proportion of cancer cells in tumor sample. Source: MPath
